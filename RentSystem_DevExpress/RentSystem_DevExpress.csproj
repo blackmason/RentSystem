@@ -69,6 +69,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControl\Reserve.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Reserve.Designer.cs">
+      <DependentUpon>Reserve.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControl\Summary.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -88,6 +94,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserControl\Reserve.resx">
+      <DependentUpon>Reserve.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControl\Summary.resx">
       <DependentUpon>Summary.cs</DependentUpon>
     </EmbeddedResource>

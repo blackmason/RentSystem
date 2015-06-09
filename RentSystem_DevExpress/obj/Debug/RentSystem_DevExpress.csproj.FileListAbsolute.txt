@@ -8,3 +8,4 @@ D:\Workspace\VisualStudio_workspace\RentSystem_DevExpress\RentSystem_DevExpress\
 D:\Workspace\VisualStudio_workspace\RentSystem_DevExpress\RentSystem_DevExpress\obj\Debug\RentSystem_DevExpress.MainForm.resources
 D:\Workspace\VisualStudio_workspace\RentSystem_DevExpress\RentSystem_DevExpress\obj\Debug\RentSystem_DevExpress.exe.licenses
 D:\Workspace\VisualStudio_workspace\RentSystem_DevExpress\RentSystem_DevExpress\obj\Debug\RentSystem_DevExpress.UserControl.Summary.resources
+D:\Workspace\VisualStudio_workspace\RentSystem_DevExpress\RentSystem_DevExpress\obj\Debug\RentSystem_DevExpress.UserControl.Reserve.resources

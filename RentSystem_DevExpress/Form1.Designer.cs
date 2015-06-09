@@ -33,7 +33,7 @@
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
-            this.navBarGroup1 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navRentManage = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarItem1 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem2 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem3 = new DevExpress.XtraNavBar.NavBarItem();
@@ -100,10 +100,10 @@
             // 
             // navBarControl1
             // 
-            this.navBarControl1.ActiveGroup = this.navBarGroup1;
+            this.navBarControl1.ActiveGroup = this.navRentManage;
             this.navBarControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.navBarControl1.Groups.AddRange(new DevExpress.XtraNavBar.NavBarGroup[] {
-            this.navBarGroup1,
+            this.navRentManage,
             this.navBarGroup2,
             this.navBarGroup3,
             this.navBarGroup4});
@@ -122,16 +122,24 @@
             this.navBarControl1.TabIndex = 0;
             this.navBarControl1.Text = "navBarControl1";
             // 
-            // navBarGroup1
+            // navRentManage
             // 
-            this.navBarGroup1.Caption = "배차관리";
-            this.navBarGroup1.Expanded = true;
-            this.navBarGroup1.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            this.navRentManage.Appearance.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navRentManage.Appearance.Options.UseFont = true;
+            this.navRentManage.AppearanceBackground.Font = new System.Drawing.Font("맑은 고딕", 9.75F);
+            this.navRentManage.AppearanceBackground.Options.UseFont = true;
+            this.navRentManage.AppearanceHotTracked.Font = new System.Drawing.Font("맑은 고딕", 9.75F);
+            this.navRentManage.AppearanceHotTracked.Options.UseFont = true;
+            this.navRentManage.AppearancePressed.Font = new System.Drawing.Font("맑은 고딕", 9.75F);
+            this.navRentManage.AppearancePressed.Options.UseFont = true;
+            this.navRentManage.Caption = "배차관리";
+            this.navRentManage.Expanded = true;
+            this.navRentManage.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem1),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem2),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem3),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem4)});
-            this.navBarGroup1.Name = "navBarGroup1";
+            this.navRentManage.Name = "navRentManage";
             // 
             // navBarItem1
             // 
@@ -205,9 +213,19 @@
             // 
             // xtraTabPage1
             // 
+            this.xtraTabPage1.Appearance.Header.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xtraTabPage1.Appearance.Header.Options.UseFont = true;
+            this.xtraTabPage1.Appearance.HeaderActive.Font = new System.Drawing.Font("맑은 고딕", 9.75F);
+            this.xtraTabPage1.Appearance.HeaderActive.Options.UseFont = true;
+            this.xtraTabPage1.Appearance.HeaderDisabled.Font = new System.Drawing.Font("맑은 고딕", 9.75F);
+            this.xtraTabPage1.Appearance.HeaderDisabled.Options.UseFont = true;
+            this.xtraTabPage1.Appearance.HeaderHotTracked.Font = new System.Drawing.Font("맑은 고딕", 9.75F);
+            this.xtraTabPage1.Appearance.HeaderHotTracked.Options.UseFont = true;
+            this.xtraTabPage1.Appearance.PageClient.Font = new System.Drawing.Font("맑은 고딕", 9.75F);
+            this.xtraTabPage1.Appearance.PageClient.Options.UseFont = true;
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(878, 786);
-            this.xtraTabPage1.Text = "xtraTabPage1";
+            this.xtraTabPage1.Size = new System.Drawing.Size(878, 783);
+            this.xtraTabPage1.Text = "요약화면";
             // 
             // MainForm
             // 
@@ -244,7 +262,7 @@
         private DevExpress.XtraEditors.PanelControl panelControl2;
         private DevExpress.XtraEditors.PanelControl panelControl3;
         private DevExpress.XtraNavBar.NavBarControl navBarControl1;
-        private DevExpress.XtraNavBar.NavBarGroup navBarGroup1;
+        private DevExpress.XtraNavBar.NavBarGroup navRentManage;
         private DevExpress.XtraEditors.PanelControl panelControl4;
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup2;
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup3;
